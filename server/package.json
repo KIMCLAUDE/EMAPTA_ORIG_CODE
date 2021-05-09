@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "test:unit": "vue-cli-service test:unit",
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-unit-jest": "^4.5.12",
+    "@vue/test-utils": "^1.0.3"
+  },
+  "keywords": [],
+  "license": "ISC"
+}
